@@ -1,5 +1,4 @@
 <H2>INFORME</H2>
-<p align="center"><img src="img/logo_espe.png"/></p>
 <H3>1. PLANTEAMIENTO DEL PROBLEMA</H3>
 <p align="justify">Amazon EC2, forma parte de la red de servicios disponibles por parte de la gigantesca industria Amazon, líder en red de centros de datos mundiales.</p>
 
