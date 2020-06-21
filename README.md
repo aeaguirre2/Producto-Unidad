@@ -9,13 +9,13 @@
 
 <H3>2. OBJETIVOS</H3>
 <b>Objetivos Generales</b>
-<p align="justify">- Realizar un video explicando e identificando los temas relevantes a manera de un tutorial sobre el tema asignado.</p>
-<p align="justify">- Conocer los beneficios de usar una máquina virtual.</p>
+<p align="justify">- Desarrollar correctamente los literales propuestos en el trabajo del Producto Unidad.</p>
+<p align="justify">- Identificar cual de las 3 plataformas es la mejor.</p>
 <b>Objetivos Específicos</b>
-<p align="justify">- Emplear las herramientas que nos brinda Amazon EC2.</p>
-<p align="justify">- Generar una máquina virtual con el servicio Amazon EC2.</p>
-<p align="justify">- Identificar la variedad de S.O disponibles para la instalación.</p>
-<p align="justify">- Reconocer el nivel de seguridad que posee este servicio.</p>
+<p align="justify">- Realizar una indagacion Bibliografica sobre la raspberry pi,arduino uno y microbit.</p>
+<p align="justify">- Describir los componentes y caracteristicas de cada uno de los hardwares.</p>
+<p align="justify">- Realizar un ejemplo de programacion en cada una de las plataformas.</p>
+<p align="justify">- Identificar que plataforma nos brinda mas facilidad a la hora de utilizarla.</p>
 <H3>3. ESTADO DEL ARTE</H3>
 <b>Streaming de medios habilitados en la nube mediante Amazon Web Service (AWS)</b><br>
 <p align="justify">Amazon Web Service (AWS) es una colección de servicios de computación remota formando una plataforma de computación en la nube, ofreciendo a través de Amazon.com. Los servicios más conocidos son Amazon EC2 y Amazon S3. En donde el servicio es mucho más rápido, escalable y económico siendo eficaz al generar una gran cantidad de servidores físicos.<br><br> 
