@@ -66,7 +66,7 @@ Voltaje de entrada: AC 85~265 VAC 50/ 60Hz</p>
 Salida de voltaje Dc 5V ( +/-0.2)</p>
 Salida de corriente 700mA</p>
 Potencia 3.5W</p>
-<p align="center"><img src="img/e.png"/></p>
+<p align="center"><img src="img/1.png"/></p>
 ii. Arduino Uno</p>
 iii. MicroBit.</p>
 
