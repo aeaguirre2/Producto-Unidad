@@ -1,5 +1,5 @@
 <H2>INFORME</H2>
-<p align="center"><img src="img/Diagrama%20%231.png"/></p>
+<p align="center"><img src="img/e.png"/></p>
 <H3>1. PLANTEAMIENTO DEL PROBLEMA</H3>
 <p align="justify">Raspberry Pi es un ordenador de placa reducida, ordenador de placa única u ordenador de placa simple (SBC) de bajo costo desarrollado en el Reino Unido por la Raspberry Pi Foundation, con el objetivo de estimular la enseñanza de informática en las escuelas.El modelo original se convirtió en más popular de lo que se esperaba, hasta incluso vendiéndose fuera del mercado objetivo para usos como robótica. No incluye periféricos (como teclado y ratón) o carcasa.La fundación da soporte para las descargas de las distribuciones para arquitectura ARM, Raspbian (derivada de Debian), RISC OS 5, Arch Linux ARM (derivado de Arch Linux) y Pidora (derivado de Fedora) y promueve principalmente el aprendizaje del lenguaje de programación Python. Otros lenguajes también soportados son Tiny BASIC, C, Perl y Ruby.La mayoría de Raspberry Pis son hechas en una fábrica de Sony en Pencoed, Wales; algunas son hechas en países asiáticos como China o Japón(Wikipedia 2012-2018).</p>
 
