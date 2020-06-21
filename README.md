@@ -5,7 +5,7 @@
 
 <p align="justify">La fundación da soporte para las descargas de las distribuciones para arquitectura ARM, Raspbian (derivada de Debian), RISC OS 5, Arch Linux ARM (derivado de Arch Linux) y Pidora (derivado de Fedora) y promueve principalmente el aprendizaje del lenguaje de programación Python. Otros lenguajes también soportados son Tiny BASIC, C, Perl y Ruby.</p>
 
-<p align="justify">Parte de usar Amazon EC2, es ahorrar en equipamiento, ya que todo lo manejamos de manera virtual y no necesitamos preocuparnos de la parte del Hardware, no obstante, se tiene en cuenta que este servicio incluye actualizaciones automáticas ya sea de seguridad u de otras, evitándonos hacerlo de manera manual. Acerca de las caídas o backups, nuestro servicio esta reforzado para asistirnos de manera adecuada, evitándonos gastos y en ocasiones perdidas involuntarias por parte de un proceso mal realizado.</p>
+<p align="justify">La mayoría de Raspberry Pis son hechas en una fábrica de Sony en Pencoed, Wales; algunas son hechas en países asiáticos como China o Japón.</p>
 
 <H3>2. OBJETIVOS</H3>
 <b>Objetivos Generales</b>
