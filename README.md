@@ -1,7 +1,7 @@
 <H2>INFORME</H2>
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
 <H3>1. PLANTEAMIENTO DEL PROBLEMA</H3>
-<p align="justify">Amazon EC2, forma parte de la red de servicios disponibles por parte de la gigantesca industria Amazon, líder en red de centros de datos mundiales.</p>
+<p align="justify">Raspberry Pi es un ordenador de placa reducida, ordenador de placa única u ordenador de placa simple (SBC) de bajo costo desarrollado en el Reino Unido por la Raspberry Pi Foundation, con el objetivo de estimular la enseñanza de informática en las escuelas.El modelo original se convirtió en más popular de lo que se esperaba, hasta incluso vendiéndose fuera del mercado objetivo para usos como robótica. No incluye periféricos (como teclado y ratón) o carcasa.</p>
 
 <p align="justify">Este servicio, ofrece una gran capacidad de sistemas operativos dentro de su repositorio para poder instalarlos en cada una de nuestras máquinas virtuales, considerando la rapidez y facilidad que se tiene para el manejo de usuarios y recursos en gran cantidad, respecto al costo siempre se mantiene en constante promoción de valores aptos para el bolsillo del usuario, usando su estrategia Low Cost, el cual incorpora la idea "Entre más usuarios la usen, más económico debe ser el servicio".</p>
 
