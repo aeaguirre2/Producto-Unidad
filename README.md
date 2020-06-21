@@ -14,7 +14,7 @@
 <b>Objetivos Específicos</b>
 <p align="justify">- Realizar una indagacion Bibliografica sobre la raspberry pi,arduino uno y microbit.</p>
 <p align="justify">- Describir los componentes y caracteristicas de cada uno de los hardwares.</p>
-<p align="justify">- Realizar un ejemplo de programacion en cada una de las plataformas.</p>
+<p align="justify">- Realizar dos ejemplos de programacion en cada una de las plataformas.</p>
 <p align="justify">- Identificar que plataforma nos brinda mas facilidad a la hora de utilizarla.</p>
 <H3>3. ESTADO DEL ARTE</H3>
 <b>Streaming de medios habilitados en la nube mediante Amazon Web Service (AWS)</b><br>
