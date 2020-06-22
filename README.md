@@ -122,8 +122,52 @@ El Micro USB es un puerto estándar que se utiliza para diversas conexiones exte
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/4.png"/></p>
 <p align="center"><img src="img/5.png"/></p>
-
+<p align="center"><img src="img/6.png"/></p>
 <H3>6. LISTA DE COMPONENTES</H3>
+<b>Raspberry pi</b></p>
+•	SoC: Broadcom BCM2835 (CPU, GPU y SDRAM)</p>
+•	CPU ARM1176JZF-S a 700 MHz de velocidad de reloj</p>
+•	GPU Broadcom VideoCore IV</p>
+•	Memoria RAM 512 MB (compartidos con la GPU)</p>
+•	2 x USB 2.0</p>
+•	1 x Salida audio mini jack 3.5 mm</p>
+•	1 x Salida audio/vídeo HDMI</p>
+•	1 x Salida vídeo compuesto RCA</p>
+•	1 x Micro USB</p></p>
+•	1 x RJ45 10/100 Ethernet RJ45</p>
+•	Slot SD para tarjeta SD que contendrá el sistema operative y programas</p>
+•	Alimentación: 5V/700 mA (3.5 W) vía micro USB</p>
+<b>Aurduino uno</b></p>
+•	Conector USB</p>
+•	Regulador de voltaje de 5V</p>
+•	Plug de conexión para fuente de alimentación externa</p>
+•	Puerto de conexiones</p>
+•	Puertos de entradas análogas</p>
+•	Microcontrolador ATmega 328</p>
+•	Botón Reset</p>
+•	Pines de programación ICSP</p>
+•	Led ON</p>
+•	Leds de Recepción y Transmisión</p>
+•	Puertos de conexiones de pines de entradas o salidas digitales</p>
+•	Puerto de conexiones 5 entradas o salidas adicionales</p>
+•	salida a tierra GND</p>
+•	pin AREF</p>
+•	Led pin 13</p>
+•	Pines de programación ISCP</p>
+•	Chip de comunicación</p>
+<b>Microbit</b></p>
+•	2 botones.</p>
+•	Una pequeña pantalla formada por 25 LEDs.</p>
+•	Sensor magnético (brújula).</p>
+•	Sensor IMU de inclinación y gravedad.</p>
+•	Sensor de temperatura.</p>
+•	Sensor de intensidad de luz.</p>
+•	20 entradas programables de entrada/salida.</p>
+•	Conexión por Bluetooth.</p>
+•	Conector serie por micro USB</p>
+
+
+
 <p align="center"><img src="img/RecursosTI.png"/></p>
 
 <H3>7. MAPA DE VARIABLES</H3>
