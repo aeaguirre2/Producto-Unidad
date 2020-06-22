@@ -103,13 +103,22 @@ Este chip de comunicaciones multiprotocolo incorpora una gran selección de peri
 iii. MicroBit.</p>
 •	2 botones.</p>
 •	Una pequeña pantalla formada por 25 LEDs.</p>
+Una Pantalla de LED es un dispositivo electrónico conformado por LEDs, que puede desplegar datos, información, imágenes, vídeos, etc.. a los espectadores cercanos a la misma. Se caracteriza por estar compuesto por diodos emisores de luz o LEDs, derivada de las siglas inglesas LED. Este tipo de pantallas no deben ser confundidas con las pantallas LCD o Plasma con Iluminación LED de fondo, empleados actualmente en ordenadores portátiles, monitores y televisores. Donde las últimas mencionadas, si contienen LEDs, más solamente como iluminación de fondo o backlight (en inglés), para aumentar el brillo, nitidez, contraste, etc., de estos equipos con esta excelente tecnología.</p>
 •	Sensor magnético (brújula).</p>
+Son sensores que efectúan una conmutación electrónica mediante la presencia de un campo magnético externo, próximo y dentro del área sensible. Estos sensores pueden ser sensibles a los polos del imán, o solamente a un polo.</p>
 •	Sensor IMU de inclinación y gravedad.</p>
+Una unidad de medición inercial o IMU (del inglés inertial measurement unit), es un dispositivo electrónico que mide e informa acerca de la velocidad, orientación y fuerzas gravitacionales de un aparato, usando una combinación de acelerómetros y giróscopos. Las unidades de medición inercial son normalmente usadas para maniobrar aviones, incluyendo vehículos aéreos no tripulados, entre muchos otros usos, y además naves espaciales, incluyendo transbordadores, satélites y aterrizadores.La IMU es el componente principal de los sistemas de navegación inercial usados en aviones, naves espaciales, buques y misiles guiados entre otros. En este uso, los datos recolectados por los sensores de una IMU permiten a un computador seguir la posición del aparato, usando un método conocido como navegación por estima.</p>
 •	Sensor de temperatura.</p>
+Los sensores de temperatura son dispositivos que transforman los cambios de temperatura en cambios en señales eléctricas que son procesados por equipo electrico o electrónico. Hay tres tipos de sensores de temperatura, los termistores, los RTD y los termopares.</p>
 •	Sensor de intensidad de luz.</p>
+Un sensor fotoeléctrico o fotocélula es un dispositivo electrónico que responde al cambio en la intensidad de la luz. Estos sensores requieren de un componente emisor que genera la luz, y un componente receptor que percibe la luz generada por el emisor.</p>
 •	20 entradas programables de entrada/salida.</p>
+Un sistema programable es aquel que consta de un circuito electrónico con algún tipo de microprocesador o microcontrolador integrado, capaz de almacenar una serie de instrucciones (programa informático) en una memoria interna con el propósito de realizar alguna acción para mantener el control y gestión de un sistema.</p>
 •	Conexión por Bluetooth.</p>
+Es una especificación tecnológica para redes inalámbricas que permite la transmisión de voz y datos entre distintos dispositivos mediante una radiofrecuencia segura (2,4 GHz). Esta tecnología, por lo tanto, permite las comunicaciones sin cables ni conectores y la posibilidad de crear redes inalámbricas domésticas para sincronizar y compartir la información que se encuentra almacenada en diversos equipos.</p>
 •	Conector serie por micro USB</p>
+El Micro USB es un puerto estándar que se utiliza para diversas conexiones externas; suele ser utilizado, específicamente, para dispositivos pequeños como es el caso de móviles, Tablet y asistentes personales digitales, entre otros.</p>
+<p align="center"><img src="img/Diagrama%20%231.png"/></p>
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
 
