@@ -164,6 +164,7 @@ iii. https://create.withcode.uk/</b></p>
 •	Led pin 13</p>
 •	Pines de programación ISCP</p>
 •	Chip de comunicación</p>
+<p align="center"><img src="img/8.jpg"/></p>
 <b>Microbit</b></p>
 •	2 botones.</p>
 •	Una pequeña pantalla formada por 25 LEDs.</p>
