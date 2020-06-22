@@ -134,10 +134,38 @@ a. Desarrolle 2 ejemplo para cada tarjeta de desarrollo en su correspondiete pla
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
+Consta con dos fuentes de energía de 3v o mas y una fuente de energía de 5v, consta con 28 pins genéricos en un chip, cuyo comportamiento se puede controlar por el usuario en tiempo de ejecución de los cuales 2 pines MOSI son transmisores de datos, con 1 pin SDA1 de entrada usb, un pin conductor SCL1,2 pines MISO de salida de datos ,2 pines de relojs SCLK ,  un software ID_SD que ejerce el control de acceso en una red informática para proteger a los sistemas computacionales , un procesador de texto TXD0 ,con un procesador RXD0 , con 3 pines CE,consta con 8 salidas a tierra (Google, s.f.). </p>
 <b>Aurduino uno</b></p>
 <p align="center"><img src="img/5.png"/></p>
+•	Pines digitales: http://www.arduino.cc/en/Tutorial/DigitalPins, pueden configurarse como entrada (para leer, sensores) o como salida (para escribir, actuadores)
+•	Pines analógicos de entrada: https://www.arduino.cc/en/Tutorial/AnalogInputPins, usan un conversor analógico/digital y sirven para leer sensores analógicos como sondas de temperatura.
+•	Pines analógicos de salida (PWM): https://www.arduino.cc/en/Tutorial/PWM, la mayoría de Arduino no tienen conversor digital/analógico y para tener salidas analógicas se usa la técnica PWM. No todos los pines digitales soportan PWM.
+•	Puertos de comunicación: USB, serie, I2C y SPI
+•	SRAM: donde Arduino crea y manipula las variables cuando se ejecuta. Es un recurso limitado y debemos supervisar su uso para evitar agotarlo.
+•	EEPROM:  memoria no volátil para mantener datos después de un reset o apagado. Las EEPROMs tienen un número limitado de lecturas/escrituras, tener en cuenta a la hora de usarla.
+•	Flash: Memoria de programa. Usualmente desde 1 Kb a 4 Mb (controladores de familias grandes). Donde se guarda el sketch.
+•	No necesita de un cable FTDI para conectarse al MCU, en su lugar uso una MCU ATMEGA16U2 especialmente programado para trabajar como conversor de USB a serie.
+•	Alimentación: vía USB, batería o adaptador AC/DC a 5V, seleccionado automáticamente. Arduino puede trabajar entre 6 y 20V, pero es recomendado trabajar entre 7 y 12V por las características del regulador de tensión.
+•	Puerto Serie en los pines 0 y 1.
+•	Interrupciones externas en los pines 2 y 3.
+•	Built-in LED en el pin 13.
+•	Bus TWI o I2C en los pines A4 y A5 etiquetados como SDA y SCL o pines específicos
+•	El MCU ATmega328P tiene un bootloader precargado que permite cargar en la memoria flash el nuevo programa o sketch sin necesidad de un HW externo.
+•	Fusible rearmable de intensidad máxima 500mA. Aunque la mayoría de pc’s ya ofrecen protección interna se incorpora un fusible con la intención de proteger tanto la placa Arduino como el bus USB de sobrecargas y cortocircuitos. Si circula una intensidad mayor a 500mA por el bus USB(Intensidad máxima de funcionamiento), el fusible salta rompiendo la conexión de la alimentación.
+•	Regulador de voltaje LP2985 de 5V a 3.3V que proporciona una corriente de alimentación máxima de 150 mA.
+•	Regulador de voltaje NCP1117 que proporciona un valor estable de 5V a la placa y soporta por encima de 1 A de corriente. Datasheet:  http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+•	ATMEGA16U2 => Es el chip encargado de convertir la comunicación del puerto USB a serie.
+•	Condensadores de 47µF de capacidad
+•	Diodo M7 en la entrada de alimentación de la placa. Con este diodo conseguimos establecer el sentido de circulación de la intensidad, de esta forma si se produce una contracorriente debido a la apertura de un relé u otros mecanismos eléctricos, el diodo bloquea dicha corriente impidiendo que afecte a la fuente de alimentación.
+•	DFU-ICSP. Puerto ICSP para el microcontrolador ATMEGA16U2, como en el caso del ATMEGA328P-PU se emplea para comunicarnos con el microcontrolador por el serial, para reflashearlo con el bootloader, hacer algunas modificaciones, ponerlo en modo DFU, etc..
+•	JP2. Pines libres del ATMEGA16U2, dos entradas y dos salidas para futuras ampliaciones.
+•	Encapsulados de resistencias.
+•	RESET-EN: Significa Reset enabled o reset habilitado. Está habilitado el auto-reset, para deshabilitar por cualquier tipo de seguridad (por ejemplo un proyecto que tenemos funcionando y no queremos que nadie lo reinicie al conectar un USB y detecte un stream de datos) debemos desoldar los pads RESET-EN y limpiarlos de forma que estén aislados el uno del otro.
+•	Cristal oscilador de 16MHz necesario para el funcionamiento del reloj del microcontrolador ATMEGA16U2.
+•	Resonador cerámico de 16 Mhz para el microcontrolador ATMEGA328P-PU. Los resonadores cerámicos son menos precisos que los cristales osciladores, pero para el caso hace perfectamente la función y ahorramos bastante espacio en la placa. Se trata del pequeño, porque el cristal grande es para el 16U2 (Code, 28).</p>
 <b>Microbit</b></p>
 <p align="center"><img src="img/6.png"/></p>
+Consta con 6 entradas análogas,3 salidas a tierra,19 pines ,6 leds , 2 botones, una fuente de energía de 3 volteos que alimenta a 3 posiciones de nuestro circuito(Pinterest, s.f.).
 <H3>6. LISTA DE COMPONENTES</H3>
 <b>Raspberry pi</b></p>
 •	SoC: Broadcom BCM2835 (CPU, GPU y SDRAM)</p>
@@ -204,11 +232,14 @@ Yamanoor, N. S., & Yamanoor, S. (2017). High quality, low cost education with th
 https://www.ecured.cu/Software_libre#:~:text=Seg%C3%BAn%20la%20Free%20Software%20Foundation,programa%2C%20con%20cualquier%20prop%C3%B3sito%3B%20de</p>
 [5] N. SATHISH, KUMAR; B. VUAYALAKSHMI; R. JENIFER PRARTHANA; A. SHANKAR, « IOT BASED SMART GARBAGE ALERT SYSTEM USING ARDUINO UNO,» IEE, 2019
 Available: https://ieeexplore.ieee.org/abstract/document/7848162</p>
-Eudoteca. (s.f.). Eudoteca. Obtenido de Tinkercad: https://www.educoteca.com/tinkercad.html
-Microes. (s.f.). Microes. Obtenido de MicroBit: http://microes.org/que-es-microbit.php
-RoboticaSchool. (2020). RoboticaSchool. Obtenido de Arduino uno: https://www.robotica.school/curso/arduino-00/explicacion-hardware-arduino-uno/
-Wikipedia. (2012-2018). Wikipedia. Obtenido de Raspberry pi: https://es.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_1_modelo_A_(descontinuada)
-Withcode. (s.f.). whitcode. Obtenido de Create a with code: https://blog.withcode.uk/create-with-code-getting-started/
+Eudoteca. (s.f.). Eudoteca. Obtenido de Tinkercad: https://www.educoteca.com/tinkercad.html</p>
+Microes. (s.f.). Microes. Obtenido de MicroBit: http://microes.org/que-es-microbit.php</p>
+RoboticaSchool. (2020). RoboticaSchool. Obtenido de Arduino uno: https://www.robotica.school/curso/arduino-00/explicacion-hardware-arduino-uno/</p>
+Wikipedia. (2012-2018). Wikipedia. Obtenido de Raspberry pi: https://es.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_1_modelo_A_(descontinuada)</p>
+Withcode. (s.f.). whitcode. Obtenido de Create a with code: https://blog.withcode.uk/create-with-code-getting-started/</p>
+Code. (2019 de Noviembre de 28). Code,if. Obtenido de La placa microbit: http://code.intef.es/la-placa-microbit/</p>
+Google. (s.f.). Google Imagenes. Obtenido de Electronica y ciencia: https://www.google.com/search?q=explicacion+diagrama+electrico++raspberry</p>
+Pinterest. (s.f.). Pinterest. Obtenido de Pinterest: https://www.pinterest.com/teletrabajo/microbits-proyectos-e-ideas/</p>
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
