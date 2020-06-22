@@ -183,59 +183,13 @@ Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compart
 •	Conector serie por micro USB</p>
 <p align="center"><img src="img/9.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
-<p align="center"><img src="img/AmazonEC2.png"/></p>
-<p align="justify">La creación de una cuenta en <b>AWS</b> de tipo <b>ESTUDIANTIL</b> para el uso del servicio <b>AMAZON EC2</b>, viene a ser de tipo visual. Siendo la parte fundamental en la creación de nuestra máquina virtual, ya que sin ella no tendríamos acceso alguno a nuestro portal, y sin ser de tipo estudiantil no tendríamos ciertas funciones disponibles a menos que sea de pago.</p>
-
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
-<p align="justify">Nuestro proyecto no posee código fuente.</p>
-
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <b>Aplicaciones Secundarias</b>
-<p align="justify">-	Control Remoto de Escritorio: Propiamente de la creación de Amazon EC2 para la reproducción visual de nuestra máquina virtual ya que en el sitio web solo poseemos la consola.</p>
-<p align="justify">-	Navegador web (Google Chrome, Microsoft Edge): Tanto para la creación de la cuenta de usuario, como para la selección del sistema operativo a instalar.</p>
-<b>Configuración del terminal</b>
-<p align="justify">-	Se debe tener una cuenta ya sea ESTUDIANTIL o de PAGO para obtener ciertos beneficios a la hora de tener la máquina virtual, tanto en funciones como rapidez en transición de datos.</p>
-<p align="justify">-	Ingresar el usuario y contraseña emitidos al correo electrónico para el uso únicamente de la máquina virtual mediante la aplicación secundaria.</p>
-<p align="justify">-	Las MAQUINAS BASICAS tienen muy poco almacenamiento tanto en Disco Duro (30GB) como en Memoria RAM (1GB) es por ello que nos servirá únicamente para cosas muy sencillas.</p>
-<p align="justify">-	El uso del control remoto de escritorio servirá para poder configurar de manera adecuada nuestra máquina virtual, como si tuviésemos una física.</p>
-
 <H3>10. APORTACIONES</H3>
-<b>Máquina Virtual</b>
-<p align="justify">Es un software que simula un sistema de computación y puede ejecutar programas como si fuese una computadora real, pero lo hace de manera aislada además emula todos los elementos que posee una máquina en físico entre los componentes que simula se encuentran: disco duro, memoria RAM, tarjetas de red, tarjeta gráfica, etc.</p>
-<b>Sistema Operativo</b>
-<p align="justify">Es un conjunto de programas especialmente diseñado para hacer de intermediarios entre el usuario y la computadora, estos programas nos sirven para controlar el hardware de manera fácil y conveniente para el usuario, puede decirse que es corazón de la máquina ya que este tiene prioridad de ejecución ante otras aplicaciones además de controlar todos los periféricos disponibles en la computadora, los sistemas operativos más utilizados son: Microsoft Windows, Mac OS X y Linux Ubuntu.</p>
-<b>Tipos de Sistemas operativos</b>
-<p align="justify">- Sistema monoprocesador:  En el sistema monoprocesador existe una sola unidad de procesamiento central (CPU) capaz de ejecutar una serie de instrucciones de índole general.<br><br>
-- Sistemas multiprocesadores: También llamados sistemas paralelos o estrechamente acoplados, los sistemas multiprocesadores tienen dos o más CPU que comparten buses y a veces el reloj, la memoria y los dispositivos periféricos. Los hay de dos tipos:<br>
-• Multiprocesador asimétrico: cada procesador tiene una tarea específica.<br>
-• Multiprocesadores simétricos: todos los procesadores realizan las mismas tareas.<br><br>
-- Sistemas distribuidos: Un sistema distribuido presenta una colección de procesadores que no comparten memoria o reloj, y se comunican por una red interconectada.<br><br>
-- Sistemas operativos de equipos portátiles: Los equipos portátiles de mano en este caso se refiere a aquellos dispositivos de pequeñas dimensiones que pueden ser manipulados con una mano, como por ejemplos las tabletas, los teléfonos inteligentes y las notebooks. Adicionalmente, los sistemas operativos de teléfonos deben adicionar componentes para las comunicaciones y la interface.<br><br>
-- Sistemas operativos empotrados o en tiempo-real: Son los sistemas operativos instalados en los dispositivos médicos, electrónicos, electrodomésticos, automóviles, entre otros. Se encargan de tareas específicas del equipo en cuestión como:<br>
-•	Ahorrar la potencia de la batería.<br>
-•	Ajustarse a tiempos limitados.<br>
-•	No requiere supervisión humana.<br></p>
-
-<b>Parches de Seguridad</b>
-<p align="justify">Es un conjunto de cambios que se aplican a un software para corregir los errores o vulnerabilidades en programas o sistemas operativos, generalmente estos parches de seguridad (actualización de seguridad) son fabricados por fabricantes de software tras la detección de alguna vulnerabilidad y estos se instalan automáticamente o manualmente por el usuario.</p>
-
 <H3>11. CONCLUSIONES</H3>
-<p align="justify">-	Se pudo comprender los distintos beneficios que trae generar una máquina virtual ante una física.<br>
--	Dentro de las herramientas que nos brinda este servicio, pudimos hacer uso del Control Remoto del Escritorio, facilitándonos más el uso de nuestra máquina.<br>
--	Se genero con facilidad, rapidez nuestra máquina virtual dentro de Amazon EC2.<br>
--	El repositorio que carece este servicio, es extenso, cumpliendo con todas las expectativas ante los sistemas operativos que se necesiten.<br>
--	Cada uno de los protocolos de seguridad del servicio, satisfacen al usuario, entregando toda la confianza a su servicio.<br></p>
-
 <H3>12. RECOMENDACIONES</H3>
-<p align="justify">-	Si la cuenta va a ser de tipo GRATUITA o ESTUDIANTIL, se deberá tener en cuenta que la máquina virtual solamente será para procedimientos extremadamente básicos.<br><br>
--	Para mayor facilidad de uso, configuración, se recomienda descargar el Control Remoto de Escritorio elaborado por AMAZON EC2 para visualizar su máquina virtual, debido a que la página web solamente posee la CONSOLA para poder configurar nuestra Virtual Machine.<br><br>
--	Tener en cuenta al momento de instalar un sistema operativo, no se lo hace mediante descarga o con la conexión de red, estos sistemas operativos ya vienen precargados en cada servicio, es por ello que solamente tomara ciertos minutos que se genere tu máquina virtual.<br><br>
--	Para el uso del Control Remoto de Escritorio y si la maquina desde donde lo ejecutas no tiene habilitado el virtualizado, se deberá activar esta sección ya sea desde la BIOS o desde nuestro PANEL DE CONTROL, caso contrario no nos permitirá que genere imagen nuestra Virtual Machine.<br></p>
-
 <H3>13. CRONOGRAMA</H3>
-<p align="center"><img src="img/Cronograma%20de%20gantt.png"/></p>
-<p align="justify"></p>
-
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">Charlton, P., & Poslad, S. (2016). A Sharable Wearable Maker Community IoT Application. 2016 12th International Conference on Intelligent Environments (IE).</p>
 Abu Sulayman, I. I. M., Almalki, S. H. A., Soliman, M. S., & Dwairi, M. O. (2017). Designing and Implementation of Home Automation System Based on Remote</p>
@@ -250,4 +204,3 @@ Available: https://ieeexplore.ieee.org/abstract/document/7848162</p>
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
-<p align="justify">Nuestro proyecto no posee hojas técnicas.</p>
