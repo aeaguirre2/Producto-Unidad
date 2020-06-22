@@ -99,7 +99,7 @@ La definición clásica de tierra (en inglés de Estados Unidos ground de donde 
 En muchas ocasiones cuando estamos trabajando en nuestros proyectos electrónicos se es necesario trabajar a X voltaje de referencia. Supongamos que tenemos un sensor de temperatura LM35, este sensor ofrece una salida de tensión lineal con respecto a la temperatura, utiliza un factor de escala de 10 mV/°C. Imaginemos entonces que necesitamos este sensor para medir la temperatura de cierto lugar utilizando nuestro Arduino UNO. Para poder leer la temperatura del lugar necesitamos convertir la medida de temperatura que es una medida física a otra de tipo eléctronico. Este trabajo es el que precisamente hace el sensor. Ahora, el voltaje de salida que nos proporciona el LM35 es una señal analógica que debemos convertirla a una señal digital para poder procesarla, el mago que realiza este proceso se llama Conversor Analógico/Digital.</p>
 •	Chip de comunicación:</p>
 Este chip de comunicaciones multiprotocolo incorpora una gran selección de periféricos analógicos y digitales que pueden interactuar sin intervención de la CPU a través del sistema PPI (Programmable Peripheral Interconnect).Un esquema de mapeado flexible de GPIO de 31 pines permite E/S como, por ejemplo, interfaces serie, PWM, y demodulación de cuadratura para ser mapeado en cualquier pin de dispositivo tal y como dictan los requisitos PCB. Esto permite una total flexibilidad de diseño asociada con la ubicación pinout y la función.</p>
-<p align="center"><img src="img/RecursosTI.png"/></p>
+<p align="center"><img src="img/2.jpg"/></p>
 iii. MicroBit.</p>
 •	2 botones.</p>
 •	Una pequeña pantalla formada por 25 LEDs.</p>
