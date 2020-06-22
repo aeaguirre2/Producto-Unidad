@@ -190,6 +190,7 @@ Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compart
 <H3>11. CONCLUSIONES</H3>
 <H3>12. RECOMENDACIONES</H3>
 <H3>13. CRONOGRAMA</H3>
+<p align="center"><img src="img/13.png"/></p>
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">Charlton, P., & Poslad, S. (2016). A Sharable Wearable Maker Community IoT Application. 2016 12th International Conference on Intelligent Environments (IE).</p>
 Abu Sulayman, I. I. M., Almalki, S. H. A., Soliman, M. S., & Dwairi, M. O. (2017). Designing and Implementation of Home Automation System Based on Remote</p>
