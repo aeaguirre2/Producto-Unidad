@@ -175,11 +175,7 @@ iii. https://create.withcode.uk/</b></p>
 •	20 entradas programables de entrada/salida.</p>
 •	Conexión por Bluetooth.</p>
 •	Conector serie por micro USB</p>
-
-
-
-<p align="center"><img src="img/RecursosTI.png"/></p>
-
+<p align="center"><img src="img/9.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/AmazonEC2.png"/></p>
 <p align="justify">La creación de una cuenta en <b>AWS</b> de tipo <b>ESTUDIANTIL</b> para el uso del servicio <b>AMAZON EC2</b>, viene a ser de tipo visual. Siendo la parte fundamental en la creación de nuestra máquina virtual, ya que sin ella no tendríamos acceso alguno a nuestro portal, y sin ser de tipo estudiantil no tendríamos ciertas funciones disponibles a menos que sea de pago.</p>
