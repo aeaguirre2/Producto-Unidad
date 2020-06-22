@@ -129,6 +129,7 @@ Tinkercad es un software gratuito online creado por la empresa Autodesk, una de 
 <p align="center"><img src="img/11.jpg"/></p>
 iii. https://create.withcode.uk/</b></p>
 Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compartir programas de Python en su navegador web.No necesita descargar ni instalar nada. Los programas de Python no pueden acceder a sus archivos o dañar su computadora, por lo que es una forma segura de aprender a crear con código.Está diseñado para profesores y estudiantes en el Reino Unido y actaualmente usada por todo el mundo(Create with code,https://blog.withcode.uk/create-with-code-getting-started/).</p>
+<p align="center"><img src="img/12.png"/></p>
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
