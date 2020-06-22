@@ -119,6 +119,11 @@ Es una especificación tecnológica para redes inalámbricas que permite la tran
 •	Conector serie por micro USB</p>
 El Micro USB es un puerto estándar que se utiliza para diversas conexiones externas; suele ser utilizado, específicamente, para dispositivos pequeños como es el caso de móviles, Tablet y asistentes personales digitales, entre otros.</p>
 <p align="center"><img src="img/3.png"/></p>
+2. Software:</p>
+<b>a. Describir cada una de las siguientes plataformas y el lenguaje de programación empleada para el desarrollo de aplicaciones en las tarjetas de desarrollo:</p>
+i. https://microbit.org/.</p>
+ii. https://www.tinkercad.com/</p>
+iii. https://create.withcode.uk/</b></p>
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/4.png"/></p>
 <p align="center"><img src="img/5.png"/></p>
