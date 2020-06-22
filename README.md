@@ -182,9 +182,10 @@ Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compart
 •	Conector serie por micro USB</p>
 <p align="center"><img src="img/9.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
+<p align="center"><img src="img/14.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
-<b>Aplicaciones Secundarias</b>
+
 <H3>10. APORTACIONES</H3>
 <H3>11. CONCLUSIONES</H3>
 <H3>12. RECOMENDACIONES</H3>
