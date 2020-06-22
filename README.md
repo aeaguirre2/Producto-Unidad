@@ -237,6 +237,10 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 - Se pudo practicar y entender la programación con lenguaje de Python, que resultó ser más sencillo que los demás lenguajes.</p>
 - Verificamos que cada una de las plataformas son importantes, una nos brinda más facilidad al programar objetos y otras nos brinda la facilidad de usar un programa sin necesidad de tenerlo instalado.</p>
 <H3>12. RECOMENDACIONES</H3>
+<p>-Se recomienda crear una cuenta en cada una de las plataformas para poder tener nuestros archivos guardados</p>
+<p>-Si se tiene un poco conocimiento de lenguajes y de programacion en general se recomienda usar la plataforma de simulacion de python,create with code</p>
+<p>-Si es primera ves en el ambito de programacion se recomienda usar la plataforma tinkercad,ya que muestra una forma mas facil de programar atravez de los objetos</p>
+<p>-Si lo que desea es simular un microprocesaodor o una microcomputadora la plataforma indicada es microbi.org</p>
 <H3>13. CRONOGRAMA</H3>
 <p align="center"><img src="img/13.png"/></p>
 <H3>14. BIBLIOGRAFIA</H3>
