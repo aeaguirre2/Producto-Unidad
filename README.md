@@ -125,8 +125,11 @@ i. https://microbit.org/.</p>
 ii. https://www.tinkercad.com/</p>
 iii. https://create.withcode.uk/</b></p>
 <H3>5. DIAGRAMAS</H3>
+<b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
+<b>Aurduino uno</b></p>
 <p align="center"><img src="img/5.png"/></p>
+<b>Microbit</b></p>
 <p align="center"><img src="img/6.png"/></p>
 <H3>6. LISTA DE COMPONENTES</H3>
 <b>Raspberry pi</b></p>
