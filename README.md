@@ -121,6 +121,7 @@ El Micro USB es un puerto estándar que se utiliza para diversas conexiones exte
 <p align="center"><img src="img/3.png"/></p>
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/4.png"/></p>
+<p align="center"><img src="img/5.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>
 <p align="center"><img src="img/RecursosTI.png"/></p>
