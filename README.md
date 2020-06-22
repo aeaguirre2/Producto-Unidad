@@ -145,6 +145,7 @@ iii. https://create.withcode.uk/</b></p>
 •	1 x RJ45 10/100 Ethernet RJ45</p>
 •	Slot SD para tarjeta SD que contendrá el sistema operative y programas</p>
 •	Alimentación: 5V/700 mA (3.5 W) vía micro USB</p>
+<p align="center"><img src="img/7.jpg"/></p>
 <b>Aurduino uno</b></p>
 •	Conector USB</p>
 •	Regulador de voltaje de 5V</p>
