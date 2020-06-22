@@ -118,7 +118,7 @@ Un sistema programable es aquel que consta de un circuito electrónico con algú
 Es una especificación tecnológica para redes inalámbricas que permite la transmisión de voz y datos entre distintos dispositivos mediante una radiofrecuencia segura (2,4 GHz). Esta tecnología, por lo tanto, permite las comunicaciones sin cables ni conectores y la posibilidad de crear redes inalámbricas domésticas para sincronizar y compartir la información que se encuentra almacenada en diversos equipos.</p>
 •	Conector serie por micro USB</p>
 El Micro USB es un puerto estándar que se utiliza para diversas conexiones externas; suele ser utilizado, específicamente, para dispositivos pequeños como es el caso de móviles, Tablet y asistentes personales digitales, entre otros.</p>
-<p align="center"><img src="img/Diagrama%20%231.png"/></p>
+<p align="center"><img src="img/3.png"/></p>
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/Diagrama%20%231.png"/></p>
 
