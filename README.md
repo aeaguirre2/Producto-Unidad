@@ -201,6 +201,11 @@ Yamanoor, N. S., & Yamanoor, S. (2017). High quality, low cost education with th
 https://www.ecured.cu/Software_libre#:~:text=Seg%C3%BAn%20la%20Free%20Software%20Foundation,programa%2C%20con%20cualquier%20prop%C3%B3sito%3B%20de</p>
 [5] N. SATHISH, KUMAR; B. VUAYALAKSHMI; R. JENIFER PRARTHANA; A. SHANKAR, « IOT BASED SMART GARBAGE ALERT SYSTEM USING ARDUINO UNO,» IEE, 2019
 Available: https://ieeexplore.ieee.org/abstract/document/7848162</p>
+Eudoteca. (s.f.). Eudoteca. Obtenido de Tinkercad: https://www.educoteca.com/tinkercad.html
+Microes. (s.f.). Microes. Obtenido de MicroBit: http://microes.org/que-es-microbit.php
+RoboticaSchool. (2020). RoboticaSchool. Obtenido de Arduino uno: https://www.robotica.school/curso/arduino-00/explicacion-hardware-arduino-uno/
+Wikipedia. (2012-2018). Wikipedia. Obtenido de Raspberry pi: https://es.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_1_modelo_A_(descontinuada)
+Withcode. (s.f.). whitcode. Obtenido de Create a with code: https://blog.withcode.uk/create-with-code-getting-started/
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
