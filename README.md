@@ -120,7 +120,7 @@ Es una especificación tecnológica para redes inalámbricas que permite la tran
 El Micro USB es un puerto estándar que se utiliza para diversas conexiones externas; suele ser utilizado, específicamente, para dispositivos pequeños como es el caso de móviles, Tablet y asistentes personales digitales, entre otros.</p>
 <p align="center"><img src="img/3.png"/></p>
 <H3>5. DIAGRAMAS</H3>
-<p align="center"><img src="img/Diagrama%20%231.png"/></p>
+<p align="center"><img src="img/4.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>
 <p align="center"><img src="img/RecursosTI.png"/></p>
@@ -183,8 +183,13 @@ El Micro USB es un puerto estándar que se utiliza para diversas conexiones exte
 <p align="justify">Charlton, P., & Poslad, S. (2016). A Sharable Wearable Maker Community IoT Application. 2016 12th International Conference on Intelligent Environments (IE).</p>
 Abu Sulayman, I. I. M., Almalki, S. H. A., Soliman, M. S., & Dwairi, M. O. (2017). Designing and Implementation of Home Automation System Based on Remote</p>
 Yamanoor, N. S., & Yamanoor, S. (2017). High quality, low cost education with the Raspberry Pi. 2017 IEEE Global Humanitarian Technology Conference</p>
-
-
+[1} JORGE CACHO HERNÁNDEZ, «Raspberry Pi: tutoriales Servidor web, ownCloud y XBMC.,» 27 Enero 2008. [En línea]. Available: file:///C:/Users/home/Downloads/102190284-Raspberry-Pi-tutoriales-servidor-web-ownCloud-y-XBMC.pdf</p>
+[2] Microes, «Caracteristiac y funcionalidades de MicroBit,» Microes, 15 septiembre 2017. [En línea]. Available: http://microes.org/caracteristicas.php</p>
+[3] C. Muñoz, «Historia de la informatica “Raspberry Pi,» Blog sobre Historia de la Informática, 18 Diciembre 2013. [En línea]. Available: https://histinf.blogs.upv.es/2013/12/18/raspberry-pi/#:~:text=Raspberry%20PI%20es%20una%20placa,de%20la%20inform%C3%A1tica%20en%20las</p>
+[4] Maria Sol Vicet Illas, «Historia y defincion de software libre en el mundo e lainformatica inicial,» Ecured.cu, Ecuador, 2017 Available:
+https://www.ecured.cu/Software_libre#:~:text=Seg%C3%BAn%20la%20Free%20Software%20Foundation,programa%2C%20con%20cualquier%20prop%C3%B3sito%3B%20de</p>
+[5] N. SATHISH, KUMAR; B. VUAYALAKSHMI; R. JENIFER PRARTHANA; A. SHANKAR, « IOT BASED SMART GARBAGE ALERT SYSTEM USING ARDUINO UNO,» IEE, 2019
+Available: https://ieeexplore.ieee.org/abstract/document/7848162</p>
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
