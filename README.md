@@ -134,7 +134,7 @@ a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete pl
 <p align="center"><img src="img/m3.jpg"/></p>
 <p align="center"><img src="img/m4.jpg"/></p>
 <b>Arduino Uno</b></p>
-
+<p align="center"><img src="img/a1.jpg"/></p>
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
