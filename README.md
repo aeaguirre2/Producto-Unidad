@@ -136,44 +136,15 @@ a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete pl
 <p align="center"><img src="img/m3.jpg"/></p>
 <p align="center"><img src="img/m4.jpg"/></p>
 <b>Arduino Uno</b></p>
-<b>SEMAFORO/b></p>
+<b>SEMAFORO</b></p>
 <p align="center"><img src="img/a1.jpg"/></p>
-<b>Medidor de temperaturab></p>
+<b>Medidor de temperatura<b></p>
 <p align="center"><img src="img/a2.png"/></p>
 <b>Raspberry pi</b></p>
 <b>Hallar el numero FIBONACCI</b></p>
 <p align="center"><img src="img/r1.png"/></p>
-# Funcion para hallar el numero Fibonacci</p>
-def Fibonacci(n): </p>
-	if n<0: </p>
-		print("Ingreso Incorrecto") </p>
-	# El primer numero Fibonacci es 0</p>
-	elif n==1: </p>
-		return 0</p>
-	# El segundo numero Fibonacci es 1</p>
-	elif n==2: </p>
-		return 1</p>
-	else: </p>
-		return Fibonacci(n-1)+Fibonacci(n-2) </p>
-# Driver Program </p>
-print(Fibonacci(9)) </p>
-# El resultado es 21</p>
 <b>Números primos en un intervalo</b></p>
 <p align="center"><img src="img/r2.png"/></p>
-# Programa en Python orientado a escribir los numeros primos en un intervalo</p>
-# Comienza en 11</p>
-start = 11</p>
-# Termina en 25</p>
-end = 25</p>
-for val in range(start, end + 1): </p>
-	if val > 1: </p>
-		for n in range(2, val//2 + 2): </p>
-			if (val % n) == 0: </p>
-				break</p>
-			else: </p>
-				if n == val//2 + 1: </p>
-					print(val) </p>        
-# El resultado es 11,13,17,19,23</p>
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
@@ -280,6 +251,7 @@ radio.onReceivedString(function (receivedString) {</p>
 radio.setGroup(1)</p>
 Este microbit esta orientado a un tipo de alarma antirrobo de nuestras pertenencias.Se realizo mediante lenguaje de programacion de bloques y javascript, esto se ejecuta cuando el microbit sea agitado, un ejemplo ya sea dentro de un maletin alguien te lo roba y lo agita al maletin por ende el microbit sentira ese gesto y procedera a enviar una senal a otro microbit el cual puedes clonar con el mismo codigo y este le advertira mediante una “cara enojada” y un sonido que esta siendo robado su pertenencia. Se realiza mediante una funcion llamada alarma la cual sera que ejecute estas acciones.Para realizar de manera fisica vas a necesitar 2 microbits, 2 baterias, auriculares o altavoces y 2 cables de clip de cocodrilo.Dentro del codigo de javascript se procede a realizar la funcion alarma, la cual se le asigna que mostrara en el panel led, en este caso una cara enojada y el sonido que reproducira por una vez, por consiguiente se crea una funcion mas la cual asigna un gesto con el cual se active y sera AGITAR, en donde enviara una senal de “LADRON” al otro microbit y este lo recibira y se activara igualmente.</p>
 <b>SEMAFORO</p></b>
+<p align="center"><img src="img/a1.jpg"/></p>
 Unicamente se lo realizo mediante el lenguaje de programacion por bloques, el cual indica que cada 3 segundos el semáforo en verde dentro del pasador 13 cambiara al siguiente pasador el cual pertenece al amarillo dentro del pasador 12 indicandole que parpapee 3 veces el amarillo durante 3 segundos cada uno, y para pasar como final al rojo dentro del pasador 11 el cual tomara 3 segundos y 10 milisegundos en apagarse y repetir el mismo proceso nuevamente.Para realizar esta practica de manera física se utilizo Arduino uno, placa de pruebas pequeña, 3 resistencias, 3 leds.</p>
 <b>Medidor de temperatura</p></b>
 // creamos una variable y le asignamos 0 como valor</p>
@@ -365,6 +337,7 @@ for val in range(start, end + 1): </p>
 # El resultado es 11,13,17,19,23</p>
 Usaremos lenguaje de programacion Python en donde pondremos todos los números primos en un intervalo del 11 al 25 mediante for,if. Dando como resultado 11,13,17,19,23</p>
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
+Se debe tener una cuenta en la plataforma de Tinkercad para poder utilizar sus servicios.
 <H3>10. APORTACIONES</H3>
 <b>SBC</b></p>
 El SBC (Session Border Controller) es un nuevo componente al alcance de las empresas. Se puede instalar como un appliance o máquina virtual y dispone de funcionalidades que harán que su red de telefonía IP sea mucho más segura y se integre mejor con el equipamiento SIP de diferentes fabricantes y proveedores de servicios.
