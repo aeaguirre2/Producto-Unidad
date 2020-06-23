@@ -139,6 +139,7 @@ a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete pl
 <b>SEMAFORO/b></p>
 <p align="center"><img src="img/a1.jpg"/></p>
 <b>Medidor de temperaturab></p>
+<p align="center"><img src="img/a2.png"/></p>
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
@@ -222,6 +223,80 @@ Consta con 6 entradas análogas,3 salidas a tierra,19 pines ,6 leds , 2 botones,
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/14.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
+<b>MELODIAS TACTILES DE UNA GUITARRA</p></b>
+input.onPinPressed(TouchPin.P2, function () {</p>
+    music.startMelody(music.builtInMelody(Melodies.Blues), MelodyOptions.Once)</p>
+})</p>
+input.onPinPressed(TouchPin.P1, function () {</p>
+    music.startMelody(music.builtInMelody(Melodies.Ode), MelodyOptions.Once)</p>
+})</p>
+Se usa lenguaje de programación en bloques y JavaScript, en bloques se realiza que cuando toque el Pin 1 se reproduzca una melodía llamada ODA y cuando se toque el pin 2 reproduzca una melodía llamada BLUES, dentro de javascript se realiza prácticamente lo mismo, únicamente mediante código. Se crea las funciones para PIN1 Y PIN2 y se da la acciona TOUCHPIN y la música que comenzara cuando se presione dicho PIN, por solo una vez.Para emplear de manera física se necesitara microbit y una batería de manera opcional, el editor makecode o Python, auriculares, 5 cables de clip de cocodrilo y opcional un cartón, papel de estano.</p>
+<b>ALARMA DE INCLINACION</p></b>
+function alarm () {</p>
+    basic.showIcon(IconNames.Angry)</p>
+    music.startMelody(music.builtInMelody(Melodies.Baddy), MelodyOptions.Once)</p>
+}</p>
+input.onGesture(Gesture.Shake, function () {</p>
+    radio.sendString("thief!")</p>
+    alarm()</p>
+})</p>
+radio.onReceivedString(function (receivedString) {</p>
+    alarm()</p>
+})</p>
+radio.setGroup(1)</p>
+Este microbit esta orientado a un tipo de alarma antirrobo de nuestras pertenencias.Se realizo mediante lenguaje de programacion de bloques y javascript, esto se ejecuta cuando el microbit sea agitado, un ejemplo ya sea dentro de un maletin alguien te lo roba y lo agita al maletin por ende el microbit sentira ese gesto y procedera a enviar una senal a otro microbit el cual puedes clonar con el mismo codigo y este le advertira mediante una “cara enojada” y un sonido que esta siendo robado su pertenencia. Se realiza mediante una funcion llamada alarma la cual sera que ejecute estas acciones.Para realizar de manera fisica vas a necesitar 2 microbits, 2 baterias, auriculares o altavoces y 2 cables de clip de cocodrilo.Dentro del codigo de javascript se procede a realizar la funcion alarma, la cual se le asigna que mostrara en el panel led, en este caso una cara enojada y el sonido que reproducira por una vez, por consiguiente se crea una funcion mas la cual asigna un gesto con el cual se active y sera AGITAR, en donde enviara una senal de “LADRON” al otro microbit y este lo recibira y se activara igualmente.</p>
+<b>SEMAFORO</p></b>
+Unicamente se lo realizo mediante el lenguaje de programacion por bloques, el cual indica que cada 3 segundos el semáforo en verde dentro del pasador 13 cambiara al siguiente pasador el cual pertenece al amarillo dentro del pasador 12 indicandole que parpapee 3 veces el amarillo durante 3 segundos cada uno, y para pasar como final al rojo dentro del pasador 11 el cual tomara 3 segundos y 10 milisegundos en apagarse y repetir el mismo proceso nuevamente.Para realizar esta practica de manera física se utilizo Arduino uno, placa de pruebas pequeña, 3 resistencias, 3 leds.</p>
+<b>Medidor de temperatura</p></b>
+// creamos una variable y le asignamos 0 como valor</p>
+int valor=0; </p>
+void setup()</p>
+{</p>
+  //colocamos los bits por segundo</p>
+  Serial.begin(9600); </p>
+}</p>
+void loop()</p>
+{</p>
+  //el valor que se leera sera del puerto analogo 1</p>
+  valor = analogRead(1); </p>
+  //en esta variable creamos una ecuacion que nos permite leer</p>
+  //en el monitor serial valores similares a los grados</p>
+  float c = (valor-102)/2;</p>
+  //colocamos el nombre temperatura</p>
+  Serial.print("Temperatura: ");</p>
+  //imprimimos el resultado</p>
+  Serial.println(c);</p>
+  //si la temperatura en grados centigrados es menor que 15</p>
+  //se encendera el led azul</p>
+  if (c<15){</p>
+    digitalWrite(5,HIGH);</p>
+  }else{digitalWrite(5,LOW);</p>
+       }</p>
+  //si la temperatura es mayor o igual que 16 grados y menor que</p>
+  //30 grados entonces se encendera el led verde</p>
+  if (c>=16&&c<30){</p>
+    digitalWrite(3,HIGH);</p>
+  }else{digitalWrite(3,LOW);</p>
+       }</p>
+  //si c es menor que 50 y mayor que 30 entonces se encendera</p>
+  //el led amarillo</p>
+  if (c>=30&&c<50){</p>
+    digitalWrite(3,HIGH);</p>
+  }else{digitalWrite(3,LOW);</p>
+       }</p>
+  //si c es mayor que 50 entonces se encendera el led rojo</p>
+  if (c>50){</p>
+    digitalWrite(2,HIGH);</p>
+  }else{digitalWrite(2,LOW);</p>
+       }</p>
+}</p>
+En este ejercicio trataremos de simular un medidor de temperatura y condicionar a los leds, que representen cierta cantidad de temperatura es decir:</p>
+Temperaturas menor a 15 led azul</p>
+Temperaturas entre 16-30 led verde</p>
+Temperaturas entre 30-50 amarillo</p>
+Temperaturas mayores a 50 rojo.</p>
+Esto se realizo mediante código en TEXTO.</p>
+Para realizar de manera física usaremos Arduino uno, placa de pruebas pequeña, 4 leds, 4 resistencias, sensor de temperatura.</p>
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <H3>10. APORTACIONES</H3>
 <b>SBC</b></p>
