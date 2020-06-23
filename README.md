@@ -127,7 +127,14 @@ iii. https://create.withcode.uk/</b></p>
 Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compartir programas de Python en su navegador web.No necesita descargar ni instalar nada. Los programas de Python no pueden acceder a sus archivos o dañar su computadora, por lo que es una forma segura de aprender a crear con código.Está diseñado para profesores y estudiantes en el Reino Unido y actualmente usada por todo el mundo(Createwithcode,https://blog.withcode.uk/create-with-code-getting-started/).</p>
 <p align="center"><img src="img/12.png"/></p>
 <b>3. Programación:</p>
-a. Desarrolle 2 ejemplo para cada tarjeta de desarrollo en su correspondiete plataforma que emplee los pines en entrada y salida.</p></b>
+a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete plataforma que emplee los pines en entrada y salida.</p></b>
+<b>Microbit</b></p>
+<p align="center"><img src="img/m1.jpg"/></p>
+<p align="center"><img src="img/m2.jpg"/></p>
+<p align="center"><img src="img/m3.jpg"/></p>
+<p align="center"><img src="img/m4.jpg"/></p>
+<b>Arduino Uno</b></p>
+
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
