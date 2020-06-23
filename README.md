@@ -140,6 +140,41 @@ a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete pl
 <p align="center"><img src="img/a1.jpg"/></p>
 <b>Medidor de temperaturab></p>
 <p align="center"><img src="img/a2.png"/></p>
+<b>Raspberry pi</b></p>
+<b>Hallar el numero FIBONACCI</b></p>
+
+# Funcion para hallar el numero Fibonacci</p>
+def Fibonacci(n): </p>
+	if n<0: </p>
+		print("Ingreso Incorrecto") </p>
+	# El primer numero Fibonacci es 0</p>
+	elif n==1: </p>
+		return 0</p>
+	# El segundo numero Fibonacci es 1</p>
+	elif n==2: </p>
+		return 1</p>
+	else: </p>
+		return Fibonacci(n-1)+Fibonacci(n-2) </p>
+# Driver Program </p>
+print(Fibonacci(9)) </p>
+# El resultado es 21</p>
+<b>Números primos en un intervalo</b></p>
+
+# Programa en Python orientado a escribir los numeros primos en un intervalo</p>
+# Comienza en 11</p>
+start = 11</p>
+# Termina en 25</p>
+end = 25</p>
+for val in range(start, end + 1): </p>
+	if val > 1: </p>
+		for n in range(2, val//2 + 2): </p>
+			if (val % n) == 0: </p>
+				break</p>
+			else: </p>
+				if n == val//2 + 1: </p>
+					print(val) </p>        
+# El resultado es 11,13,17,19,23</p>
+
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
