@@ -129,12 +129,16 @@ Es una herramienta gratuita que le permite escribir, ejecutar, depurar y compart
 <b>3. Programación:</p>
 a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete plataforma que emplee los pines en entrada y salida.</p></b>
 <b>Microbit</b></p>
+<b>MELODIAS TACTILES DE UNA GUITARRA</p></b>
 <p align="center"><img src="img/m1.jpg"/></p>
 <p align="center"><img src="img/m2.jpg"/></p>
+<b>ALARMA DE INCLINACION</p></b>
 <p align="center"><img src="img/m3.jpg"/></p>
 <p align="center"><img src="img/m4.jpg"/></p>
 <b>Arduino Uno</b></p>
+<b>SEMAFORO/b></p>
 <p align="center"><img src="img/a1.jpg"/></p>
+<b>Medidor de temperaturab></p>
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
