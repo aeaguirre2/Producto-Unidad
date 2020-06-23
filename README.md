@@ -142,7 +142,7 @@ a. Desarrolle 2 ejemplos para cada tarjeta de desarrollo en su correspondiete pl
 <p align="center"><img src="img/a2.png"/></p>
 <b>Raspberry pi</b></p>
 <b>Hallar el numero FIBONACCI</b></p>
-
+<p align="center"><img src="img/r1.png"/></p>
 # Funcion para hallar el numero Fibonacci</p>
 def Fibonacci(n): </p>
 	if n<0: </p>
@@ -159,7 +159,7 @@ def Fibonacci(n): </p>
 print(Fibonacci(9)) </p>
 # El resultado es 21</p>
 <b>Números primos en un intervalo</b></p>
-
+<p align="center"><img src="img/r2.png"/></p>
 # Programa en Python orientado a escribir los numeros primos en un intervalo</p>
 # Comienza en 11</p>
 start = 11</p>
@@ -174,7 +174,6 @@ for val in range(start, end + 1): </p>
 				if n == val//2 + 1: </p>
 					print(val) </p>        
 # El resultado es 11,13,17,19,23</p>
-
 <H3>5. DIAGRAMAS</H3>
 <b>Raspberry pi</b></p>
 <p align="center"><img src="img/4.png"/></p>
@@ -332,6 +331,39 @@ Temperaturas entre 30-50 amarillo</p>
 Temperaturas mayores a 50 rojo.</p>
 Esto se realizo mediante código en TEXTO.</p>
 Para realizar de manera física usaremos Arduino uno, placa de pruebas pequeña, 4 leds, 4 resistencias, sensor de temperatura.</p>
+<b>Hallar el numero FIBONACCI</p></b>
+# Funcion para hallar el numero Fibonacci</p>
+def Fibonacci(n): </p>
+	if n<0: </p>
+		print("Ingreso Incorrecto") </p>
+	# El primer numero Fibonacci es 0</p>
+	elif n==1: </p>
+		return 0</p>
+	# El segundo numero Fibonacci es 1</p>
+	elif n==2: </p>
+		return 1</p>
+	else: </p>
+		return Fibonacci(n-1)+Fibonacci(n-2) </p>
+# Driver Program </p>
+print(Fibonacci(9)) </p>
+# El resultado es 21</p>
+Según la sucesión de Fibonacci cada número es la suma de los dos anteriores, comenzando por 0 y 1, dará como resultado 21 respecto a 9. Se usa Python para definir el numero Fibonacci.</p>
+<b>Números primos en un intervalo</b></p>
+# Programa en Python orientado a escribir los numeros primos en un intervalo</p>
+# Comienza en 11</p>
+start = 11</p>
+# Termina en 25</p>
+end = 25</p>
+for val in range(start, end + 1): </p>
+	if val > 1: </p>
+		for n in range(2, val//2 + 2): </p>
+			if (val % n) == 0: </p>
+				break</p>
+			else: </p>
+				if n == val//2 + 1: </p>
+					print(val) </p>        
+# El resultado es 11,13,17,19,23</p>
+Usaremos lenguaje de programacion Python en donde pondremos todos los números primos en un intervalo del 11 al 25 mediante for,if. Dando como resultado 11,13,17,19,23</p>
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 <H3>10. APORTACIONES</H3>
 <b>SBC</b></p>
