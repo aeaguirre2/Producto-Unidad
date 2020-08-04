@@ -43,7 +43,7 @@ Python, en programación orientada a objetos, trata de modelar lo que se enfrent
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/4.jpg"/></p>
 <p align="center"><img src="img/5.jpg"/></p>
-<p align="center"><img src="img/6.jpg"/></p>
+<p align="center"><img src="img/6.png"/></p>
 <H3>6. LISTA DE COMPONENTES</H3>
 <b>Raspberry pi</b></p>
 •	SoC: Broadcom BCM2835 (CPU, GPU y SDRAM)</p>
