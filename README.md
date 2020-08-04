@@ -29,51 +29,21 @@ A medida que aumenta el número de dispositivos en la nube, es necesario actuali
 Una herramienta con la cual comunicamos el hardware y servicios, de manera rápida, eficaz. No solo actúa de manera de programación visual, sino se la utiliza para conectar dispositivos de hardware, APIs y servicios de internet. </p>
 Node red esta adecuado para los equipos dedicados al internet de las cosas Industrial, personal dedicado al diseño y soluciones para la comunicación que existe en los equipos de planta.</p>
 Node-RED está creado a partir de NodeJS y la librería de JavaScript D3.js. Donde NodeJS proporcionara potencia suficiente para que Node-Red pueda ser escalable y fiable. Además de ser un software muy potente que permite que se ejecute programación por medio de JavaScript. Lo componen los nodos, los cuales se arrastran a través de una interfaz gráfica. Todos estos nodos se organizarán en flujos que se conectan entre ellos, todo de manera visual sin tener que generar una línea de código o texto.</p>
-</p>HMI.</p></b>
+<p align="center"><img src="img/1.png"/></p>
+<b></p>HMI.</p></b>
 <p align="justify">La interfaz hombre máquina, actúa entre el proceso y operadores, es resumen es un panel que lo maneja el operador, o también llamado Dashboard. Este panel que se genera seria la herramienta principal en la que los operadores coordinaran y controlaran los procesos industriales de las instituciones.</p>
 La información de operación que genera la institución es traducida al HMI en tiempo real, donde los gráficos ya sean de varias partes físicas o hardware, tomaran su información y la transmitirán, lo cual optimizara el resultado de procesos y su regulación de una manera simplificada al máximo.</p>
 En la actualidad, dado que las máquinas y procesos en general están implementadas con controladores y otros dispositivos electrónicos que dejan disponibles puertas de comunicación, es posible contar con sistemas de HMI bastantes más poderosos y eficaces, además de permitir una conexión más sencilla y económica con el proceso o máquinas</p>
-<p align="center"><img src="img/1.jpg"/></p>
+<p align="center"><img src="img/2.png"/></p>
 <b>Python</p></b>
 Es un lenguaje de programación, el cual se lo considera interpretado, por lo mismo funciona en cualquier tipo de sistema que integre su interpretador. Además, ofrece dialectos como el conocido Jython, el cual se usa para escribir en Java.</p>
 No solo es multiplataforma y multiparadigma, sino que también nos servirá para resolver códigos para cualquier tipo de medio, como una web o un móvil. Para llevar a cabo todo esto, lo constituye frameworks, los cuales generan ayuda para desarrolladores web, de juegos o científicos. Cabe recalcar que Python es open-source lo cual genera mas ayuda para aquellos que les gusta modificar o distribuir las cosas.</p>
 Python, en programación orientada a objetos, trata de modelar lo que se enfrente en función a clases, objetos, usando los conceptos de polimorfismo, herencia, abstracción y más. Lo cual utilizaremos para tratar el rápido aumento en el tamaño y complejidad de sistemas de software.</p>
-<p align="center"><img src="img/2.jpg"/></p>
+<p align="center"><img src="img/3.png"/></p>
 <H3>5. DIAGRAMAS</H3>
-<b>Raspberry pi</b></p>
-<p align="center"><img src="img/4.png"/></p>
-Consta con dos fuentes de energía de 3v o mas y una fuente de energía de 5v, consta con 28 pins genéricos en un chip, cuyo comportamiento se puede controlar por el usuario en tiempo de ejecución de los cuales 2 pines MOSI son transmisores de datos, con 1 pin SDA1 de entrada usb, un pin conductor SCL1,2 pines MISO de salida de datos ,2 pines de relojs SCLK ,  un software ID_SD que ejerce el control de acceso en una red informática para proteger a los sistemas computacionales , un procesador de texto TXD0 ,con un procesador RXD0 , con 3 pines CE,consta con 8 salidas a tierra (Google, s.f.). </p>
-<b>Aurduino uno</b></p>
-<p align="center"><img src="img/5.png"/></p>
-•	Pines digitales: http://www.arduino.cc/en/Tutorial/DigitalPins, pueden configurarse como entrada (para leer, sensores) o como salida (para escribir, actuadores)
-•	Pines analógicos de entrada: https://www.arduino.cc/en/Tutorial/AnalogInputPins, usan un conversor analógico/digital y sirven para leer sensores analógicos como sondas de temperatura.
-•	Pines analógicos de salida (PWM): https://www.arduino.cc/en/Tutorial/PWM, la mayoría de Arduino no tienen conversor digital/analógico y para tener salidas analógicas se usa la técnica PWM. No todos los pines digitales soportan PWM.
-•	Puertos de comunicación: USB, serie, I2C y SPI
-•	SRAM: donde Arduino crea y manipula las variables cuando se ejecuta. Es un recurso limitado y debemos supervisar su uso para evitar agotarlo.
-•	EEPROM:  memoria no volátil para mantener datos después de un reset o apagado. Las EEPROMs tienen un número limitado de lecturas/escrituras, tener en cuenta a la hora de usarla.
-•	Flash: Memoria de programa. Usualmente desde 1 Kb a 4 Mb (controladores de familias grandes). Donde se guarda el sketch.
-•	No necesita de un cable FTDI para conectarse al MCU, en su lugar uso una MCU ATMEGA16U2 especialmente programado para trabajar como conversor de USB a serie.
-•	Alimentación: vía USB, batería o adaptador AC/DC a 5V, seleccionado automáticamente. Arduino puede trabajar entre 6 y 20V, pero es recomendado trabajar entre 7 y 12V por las características del regulador de tensión.
-•	Puerto Serie en los pines 0 y 1.
-•	Interrupciones externas en los pines 2 y 3.
-•	Built-in LED en el pin 13.
-•	Bus TWI o I2C en los pines A4 y A5 etiquetados como SDA y SCL o pines específicos
-•	El MCU ATmega328P tiene un bootloader precargado que permite cargar en la memoria flash el nuevo programa o sketch sin necesidad de un HW externo.
-•	Fusible rearmable de intensidad máxima 500mA. Aunque la mayoría de pc’s ya ofrecen protección interna se incorpora un fusible con la intención de proteger tanto la placa Arduino como el bus USB de sobrecargas y cortocircuitos. Si circula una intensidad mayor a 500mA por el bus USB(Intensidad máxima de funcionamiento), el fusible salta rompiendo la conexión de la alimentación.
-•	Regulador de voltaje LP2985 de 5V a 3.3V que proporciona una corriente de alimentación máxima de 150 mA.
-•	Regulador de voltaje NCP1117 que proporciona un valor estable de 5V a la placa y soporta por encima de 1 A de corriente. Datasheet:  http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
-•	ATMEGA16U2 => Es el chip encargado de convertir la comunicación del puerto USB a serie.
-•	Condensadores de 47µF de capacidad
-•	Diodo M7 en la entrada de alimentación de la placa. Con este diodo conseguimos establecer el sentido de circulación de la intensidad, de esta forma si se produce una contracorriente debido a la apertura de un relé u otros mecanismos eléctricos, el diodo bloquea dicha corriente impidiendo que afecte a la fuente de alimentación.
-•	DFU-ICSP. Puerto ICSP para el microcontrolador ATMEGA16U2, como en el caso del ATMEGA328P-PU se emplea para comunicarnos con el microcontrolador por el serial, para reflashearlo con el bootloader, hacer algunas modificaciones, ponerlo en modo DFU, etc..
-•	JP2. Pines libres del ATMEGA16U2, dos entradas y dos salidas para futuras ampliaciones.
-•	Encapsulados de resistencias.
-•	RESET-EN: Significa Reset enabled o reset habilitado. Está habilitado el auto-reset, para deshabilitar por cualquier tipo de seguridad (por ejemplo un proyecto que tenemos funcionando y no queremos que nadie lo reinicie al conectar un USB y detecte un stream de datos) debemos desoldar los pads RESET-EN y limpiarlos de forma que estén aislados el uno del otro.
-•	Cristal oscilador de 16MHz necesario para el funcionamiento del reloj del microcontrolador ATMEGA16U2.
-•	Resonador cerámico de 16 Mhz para el microcontrolador ATMEGA328P-PU. Los resonadores cerámicos son menos precisos que los cristales osciladores, pero para el caso hace perfectamente la función y ahorramos bastante espacio en la placa. Se trata del pequeño, porque el cristal grande es para el 16U2 (Code, 28).</p>
-<b>Microbit</b></p>
-<p align="center"><img src="img/6.png"/></p>
-Consta con 6 entradas análogas,3 salidas a tierra,19 pines ,6 leds , 2 botones, una fuente de energía de 3 volteos que alimenta a 3 posiciones de nuestro circuito(Pinterest, s.f.).
+<p align="center"><img src="img/4.jpg"/></p>
+<p align="center"><img src="img/5.jpg"/></p>
+<p align="center"><img src="img/6.jpg"/></p>
 <H3>6. LISTA DE COMPONENTES</H3>
 <b>Raspberry pi</b></p>
 •	SoC: Broadcom BCM2835 (CPU, GPU y SDRAM)</p>
@@ -277,6 +247,10 @@ implementation. Internet Technology Letters, 2(2), e88.5</p>
 -Notificaciones Node-Red. (2016).HEIMDALL-EYE.http://heimdall-eye.es/notificaciones-node-red/</p>
 - 2009 Avelino Amoedo, Mara del Pilar Martnez-Costa, Elsa Moreno10.1386/rajo.6.1.5_4 Radio Journal:International Studies in Broadcast & Audio Media</p>
 -ENSEÑANZA DE CURSOS DE LA PROGRAMACIÓN ORIENTADA A OBJETOS PARA LOS PRINCIPIANTES 2011 Elzbieta Malinowski Gadja 10.15517/ring.v9i1-2.7731Revista Ingeniería</p>
+Fuente: Web technologies in industry HMI - IEEE Conference Publication. (n.d.). Recuperado en Agosto 3, 2020, de https://ieeexplore.ieee.org/document/7329647</p>
+Fuente: Development of a Continuous System Simulation Engine in Python Programing Language - IEEE Conference Publication. (n.d.). Recuperado en Agosto 3, 2020, de https://ieeexplore.ieee.org/document/9066334</p>
+Fuente: Internet of Things using Node-Red and alexa - IEEE Conference Publication. (n.d.). Recuperado en Agosto 3, 2020, de https://ieeexplore.ieee.org/document/8261194</p>
+
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
