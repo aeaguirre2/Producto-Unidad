@@ -74,76 +74,76 @@ class CalcuCientifica():#CLASES QUE CONTIENE A LA CALCULADORA EN GENERAL</p>
 	resultado=0#ATRIBUTO</p>
 	def __init__(self,resultado):#CONSTRUCTOR</p>
     	self.resultado=resultado</p>
-# menu general del programa
-	def menu(self):
-    	print("Calculadora Cientifica")
-    	print("---------------------------------------------")
-    	print("Para la seleccion de funciones use los interruptores unicamente  activado 1 a la vez, despues pulse enter")
-    	print("Para el ingreso de numeros use el teclado, despues pulse enter                                        	")
-    	print("----------------------------------------------")
-    	print("1: Operaciones Basicas\n2: Funciones trigonometricas\n3: Raices,Potencias y Logaritmos\n4: Otros")
-    	vacio=input()#VARIABLE VACIA PARA RECIBIR UN ENTER Y PASAR A LA SIGUIENTE INSTRUCCION
-    	seleccion=self.pinSelector()#LLAMADO A LA FUNCION SELECTOR DE PIN PARA LEER EL GPIO
-    	#SELECTOR DE CASOS PARA DIRIGIRSE A UN SUBMENU
-    	if seleccion==1:
-        	self.basicas()
-    	elif seleccion==2:
-        	self.trigonometricas()
-    	elif seleccion==3:
-        	self.racExpLog()
-    	elif seleccion==4:
-        	self.otros()
-    	else:
-        	print("Opcion no valida")
-        	self.menu()
+# menu general del programa</p>
+	def menu(self):</p>
+    	print("Calculadora Cientifica")</p>
+    	print("---------------------------------------------")</p>
+    	print("Para la seleccion de funciones use los interruptores unicamente  activado 1 a la vez, despues pulse enter")</p>
+    	print("Para el ingreso de numeros use el teclado, despues pulse enter                                        	")</p>
+    	print("----------------------------------------------")</p>
+    	print("1: Operaciones Basicas\n2: Funciones trigonometricas\n3: Raices,Potencias y Logaritmos\n4: Otros")</p>
+    	vacio=input()#VARIABLE VACIA PARA RECIBIR UN ENTER Y PASAR A LA SIGUIENTE INSTRUCCION</p>
+    	seleccion=self.pinSelector()#LLAMADO A LA FUNCION SELECTOR DE PIN PARA LEER EL GPIO</p>
+    	#SELECTOR DE CASOS PARA DIRIGIRSE A UN SUBMENU</p>
+    	if seleccion==1:</p>
+        	self.basicas()</p></p>
+    	elif seleccion==2:</p>
+        	self.trigonometricas()</p>
+    	elif seleccion==3:</p>
+        	self.racExpLog()</p>
+    	elif seleccion==4:</p>
+        	self.otros()</p>
+    	else:</p>
+        	print("Opcion no valida")</p>
+        	self.menu()</p>
 
-#Seccion de operaciones basicas
-	def basicas(self):
-    	print("Basicas")
-    	print("Seleccione opcion a realizar: ")
-    	print("1: Suma\n2: Resta\n3: Multiplicacion\n4: Division")
-    	vacio=input()#VARIABLE VACIA PARA RECIBIR UN ENTER Y PASAR A LA SIGUIENTE INSTRUCCION
-    	selBas=self.pinSelector()#LLAMADO A LA FUNCION SELECTOR DE PIN PARA LEER EL GPIO
-    	if selBas==1:
-        	self.suma()
-    	elif selBas==2:
-        	self.resta()
-    	elif selBas==3:
-        	self.multipli()
-    	elif selBas==4:
-        	self.division()
-    	else:
-        	print("Opcion no valida")
-        	self.basicas()
-#PARA LAS OPERACIONES BASICAS SE PEDIRAN 2 NUMEROS A OPERAR Y EL RESULTADO SE ALMACENARA E IMPRIMIRA
-	def suma(self):
-    	print("Ingrese el primer numero")
-    	num1=float(input())
-    	print("Ingrese el segundo numero")
-    	num2=float(input())
-    	resultado=num1+num2
-    	print(num1,'+',num2,'=',resultado)
-	def resta(self):
-    	print("Ingrese el minuendo")
-    	num1=float(input())
-    	print("Ingrese el sustraendo")
-    	num2=float(input())
-    	resultado=num1-num2
-    	print(num1,'-',num2,'=',resultado)
-	def multipli(self):
-    	print("Ingrese el primer numero")
-    	num1=float(input())
-    	print("Ingrese el segundo numero")
-    	num2=float(input())
-    	resultado=num1*num2
-    	print(num1,'*',num2,'=',resultado)
-	def division(self):
-    	print("Ingrese el dividendo")
-    	num1=float(input())
-    	print("Ingrese el divisor")
-    	num2=float(input())
-    	resultado=num1/num2
-    	print(num1,'/',num2,'=',resultado)
+#Seccion de operaciones basicas</p>
+	def basicas(self):</p>
+    	print("Basicas")</p>
+    	print("Seleccione opcion a realizar: ")</p>
+    	print("1: Suma\n2: Resta\n3: Multiplicacion\n4: Division")</p>
+    	vacio=input()#VARIABLE VACIA PARA RECIBIR UN ENTER Y PASAR A LA SIGUIENTE INSTRUCCION</p>
+    	selBas=self.pinSelector()#LLAMADO A LA FUNCION SELECTOR DE PIN PARA LEER EL GPIO</p>
+    	if selBas==1:</p>
+        	self.suma()</p>
+    	elif selBas==2:</p>
+        	self.resta()</p>
+    	elif selBas==3:</p>
+        	self.multipli()</p>
+    	elif selBas==4:</p>
+        	self.division()</p>
+    	else:</p>
+        	print("Opcion no valida")</p>
+        	self.basicas()</p>
+#PARA LAS OPERACIONES BASICAS SE PEDIRAN 2 NUMEROS A OPERAR Y EL RESULTADO SE ALMACENARA E IMPRIMIRA</p>
+	def suma(self):</p>
+    	print("Ingrese el primer numero")</p>
+    	num1=float(input())</p>
+    	print("Ingrese el segundo numero")</p>
+    	num2=float(input())</p>
+    	resultado=num1+num2</p>
+    	print(num1,'+',num2,'=',resultado)</p>
+	def resta(self):</p>
+    	print("Ingrese el minuendo")</p>
+    	num1=float(input())</p>
+    	print("Ingrese el sustraendo")</p>
+    	num2=float(input())</p>
+    	resultado=num1-num2</p>
+    	print(num1,'-',num2,'=',resultado)</p>
+	def multipli(self):</p>
+    	print("Ingrese el primer numero")</p>
+    	num1=float(input())</p>
+    	print("Ingrese el segundo numero")</p></p>
+    	num2=float(input())</p>
+    	resultado=num1*num2</p>
+    	print(num1,'*',num2,'=',resultado)</p>
+	def division(self):</p>
+    	print("Ingrese el dividendo")</p>
+    	num1=float(input())</p>
+    	print("Ingrese el divisor")</p>
+    	num2=float(input())</p>
+    	resultado=num1/num2</p>
+    	print(num1,'/',num2,'=',resultado)</p>
 
 #seccion funciones trigonometricas
 
