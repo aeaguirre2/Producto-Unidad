@@ -356,41 +356,33 @@ Se denomina microprocesador al circuito electrónico que procesa la energía nec
 Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License, que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores(Knowlton, Jim (2009)).</p>
 <b>Microcomputadoras</b></p>
  Una microcomputadora, un microcomputador o un microordenador es una computadora pequeña, con un microprocesador como su unidad central de procesamiento CPU. Generalmente, el microprocesador incluye los circuitos de almacenamiento (o memoria caché) y entrada/salida en el mismo circuito integrado (o chip). Las microcomputadoras se hicieron populares desde 1970 y 1980 con el surgimiento de microprocesadores más potentes. Los predecesores de estas computadoras, las supercomputadoras y las minicomputadoras, eran mucho más grandes y costosas (aunque las supercomputadoras modernas, como las IBM System z, utilizan uno o más microprocesadores como CPUs). Muchas microcomputadoras (cuando están equipadas con un teclado y una pantalla para entrada y salida) son también computadoras personales (en sentido general). La abreviatura micro fue comúnmente utilizada durante las décadas de 1970 y de 1980,aunque actualmente esté en desuso(Wikipedia, 2006-2017).</p>
-<H3>11. CONCLUSIONES</H3>
-- Se pudo identificar la ventaja de tener aplicaciones para programación sin descargar nada</p>
-- Dentro de estas plataformas de simulación se pueden hacer cualquier tipo de algoritmos que posteriormente podemos enlazar con los microcomputadores.</p>
--Se pudo aprender a realizar una programación orientada a objetos con una plataforma que usaba similar lenguaje al de scratch.</p>
-- Se pudo practicar y entender la programación con lenguaje de Python, que resultó ser más sencillo que los demás lenguajes.</p>
-- Verificamos que cada una de las plataformas son importantes, una nos brinda más facilidad al programar objetos y otras nos brinda la facilidad de usar un programa sin necesidad de tenerlo instalado.</p>
-<H3>12. RECOMENDACIONES</H3>
-<p>-Se recomienda crear una cuenta en cada una de las plataformas para poder tener nuestros archivos guardados</p>
-<p>-Si se tiene un poco conocimiento de lenguajes y de programacion en general se recomienda usar la plataforma de simulacion de python,create with code</p>
-<p>-Si es primera ves en el ambito de programacion se recomienda usar la plataforma tinkercad,ya que muestra una forma mas facil de programar atravez de los objetos</p>
-<p>-Si lo que desea es simular un microprocesaodor o una microcomputadora la plataforma indicada es microbi.org</p>
+<H3>11. CONCLUSIONES</H3></p>
+-Realizada la investigación sobre las tarjetas de desarrollo  se llegó a las conclusiones sobre los objetivos específicos las cuales fueron:</p>
+-Mediante la investigación y la implementación de los ejemplos mostrados en clase además de otros ejemplos implementados de manera propia nos ayudo a conocer cómo funcionan los distintos parámetros de la programación orientada a objetos.</p>
+-Los nodos presentes en la dashboar creada para la realización de este proyecto son varios los cuales se describieron brevemente en varios de los elementos mostrados anteriormente.</p>
+-Se implementó de manera exitosa una calculadora científica  gracias a los estudios realizados en clase y las investigaciones extra, además se logró identificar los parámetros necesarios para el paradigma de programación orientada a objetos</p>
+-Durante el desarrollo de la implementación de la dashboar se mostró que varios de los elementos empleados son útiles y necesarios en varias actividades y negocios populares en la actualidad</p>
+-Después de haber logrado los objetivos específicos se llegó a la conclusión que gracias a estos objetivos específicos se lograra llegar a la implementación y la realización de los objetivos generales.</p>
+-Mediante la implantación de las dashboard se logró conocer la funcionalidad de cada uno de los nodos necesarios para su configuración.</p>
+-Se logró manejar de manera satisfactoria el paradigma de programación orientada a objetos sobre todo para la implementación de la calculadora científica hecha en el lenguaje de programación Python.</p>
+<H3>12. RECOMENDACIONES</H3></p>
+-Al momento de realizar la investigación nos mostró que se deben estudiar más afondo la generación de las dashboard ya que las  mismas son muy útiles en algunos de los negocios que actualmente están en auge.</p>
+-Conocer los distintos tipos de paradigmas de programación que existen y en especial en los lenguajes de programación que son más utilizados en la actualidad.</p>
 <H3>13. CRONOGRAMA</H3>
 <p align="center"><img src="img/13.png"/></p>
 <H3>14. BIBLIOGRAFIA</H3>
-<p align="justify">Charlton, P., & Poslad, S. (2016). A Sharable Wearable Maker Community IoT Application. 2016 12th International Conference on Intelligent Environments (IE).</p>
-Abu Sulayman, I. I. M., Almalki, S. H. A., Soliman, M. S., & Dwairi, M. O. (2017). Designing and Implementation of Home Automation System Based on Remote</p>
-Yamanoor, N. S., & Yamanoor, S. (2017). High quality, low cost education with the Raspberry Pi. 2017 IEEE Global Humanitarian Technology Conference</p>
-[1} JORGE CACHO HERNÁNDEZ, «Raspberry Pi: tutoriales Servidor web, ownCloud y XBMC.,» 27 Enero 2008. [En línea]. Available: file:///C:/Users/home/Downloads/102190284-Raspberry-Pi-tutoriales-servidor-web-ownCloud-y-XBMC.pdf</p>
-[2] Microes, «Caracteristiac y funcionalidades de MicroBit,» Microes, 15 septiembre 2017. [En línea]. Available: http://microes.org/caracteristicas.php</p>
-[3] C. Muñoz, «Historia de la informatica “Raspberry Pi,» Blog sobre Historia de la Informática, 18 Diciembre 2013. [En línea]. Available: https://histinf.blogs.upv.es/2013/12/18/raspberry-pi/#:~:text=Raspberry%20PI%20es%20una%20placa,de%20la%20inform%C3%A1tica%20en%20las</p>
-[4] Maria Sol Vicet Illas, «Historia y defincion de software libre en el mundo e lainformatica inicial,» Ecured.cu, Ecuador, 2017 Available:
-https://www.ecured.cu/Software_libre#:~:text=Seg%C3%BAn%20la%20Free%20Software%20Foundation,programa%2C%20con%20cualquier%20prop%C3%B3sito%3B%20de</p>
-[5] N. SATHISH, KUMAR; B. VUAYALAKSHMI; R. JENIFER PRARTHANA; A. SHANKAR, « IOT BASED SMART GARBAGE ALERT SYSTEM USING ARDUINO UNO,» IEE, 2019
-Available: https://ieeexplore.ieee.org/abstract/document/7848162</p>
-Eudoteca. (s.f.). Eudoteca. Obtenido de Tinkercad: https://www.educoteca.com/tinkercad.html</p>
-Microes. (s.f.). Microes. Obtenido de MicroBit: http://microes.org/que-es-microbit.php</p>
-RoboticaSchool. (2020). RoboticaSchool. Obtenido de Arduino uno: https://www.robotica.school/curso/arduino-00/explicacion-hardware-arduino-uno/</p>
-Wikipedia. (2012-2018). Wikipedia. Obtenido de Raspberry pi: https://es.wikipedia.org/wiki/Raspberry_Pi#Raspberry_Pi_1_modelo_A_(descontinuada)</p>
-Withcode. (s.f.). whitcode. Obtenido de Create a with code: https://blog.withcode.uk/create-with-code-getting-started/</p>
-Code. (2019 de Noviembre de 28). Code,if. Obtenido de La placa microbit: http://code.intef.es/la-placa-microbit/</p>
-Google. (s.f.). Google Imagenes. Obtenido de Electronica y ciencia: https://www.google.com/search?q=explicacion+diagrama+electrico++raspberry</p>
-Pinterest. (s.f.). Pinterest. Obtenido de Pinterest: https://www.pinterest.com/teletrabajo/microbits-proyectos-e-ideas/</p>
-Microprocesador. (junio de 22 de 2020). Obtenido de Significados : https://www.significados.com/microprocesador/</p>
-Quarea. (s.f.). Obtenido de SBC: https://www.quarea.com/es/sbc-componente-indispensable</p>
-Wikipedia. (2006-2017). Wikipedia. Obtenido de Microcomputadoras: https://es.wikipedia.org/wiki/Microcomputadora#:~:text=Una%20microcomputadora%2C%20un%20microcomputador%20o,circuito%20integrado%20(o%20chip).</p>
+- García Jiménez, S. (2019). Desarrollo de paneles de control para redes IoT basados en NodeRed (Doctoraldissertation).</p>
+- OpenJS Foundation. (Julio de 2020). Node-RED .Obtenido de https://flows.nodered.org/node/node-red-dashboard</p>
+-(20 de 11 de 2018). Obtenido de Aprendiendo Arduino:https://aprendiendoarduino.wordpress.com /2018/11/20 node-red</p>
+-Sicari, S., Rizzardi, A., & Coen-Porisini, A. (2019).Smart transport and logistics: A Node-RED</p>
+implementation. Internet Technology Letters, 2(2), e88.5</p>
+-García Jiménez, S. (2019). Desarrollo de paneles de control para redes IoT basados en NodeRed (Doctoral dissertation).</p>
+- Lutvi, L. (2019). PERANCANGAN DANIMPLEMENTASI DASHBOARD BERBASIS NODE-RED UNTUK MONITORING TEGANGAN,ARUS, DAYA, DAN SUHU DENGAN MEMANFAATKAN KOMUNIKASI ARDUINO DAN LORA. Program Studi Teknik Elektro.</p>
+- Dashboard Nodes. (2018). Hewlett Packard Enterprise.https://techlibrary.hpe.com/docs/otlink-wo/Dashboard-Nodes.html#DashboardNodes-ChartNode</p>
+-Los nodos centrales. (2020). Node-RED.https://nodered.org/docs/user-guide/nodes#template</p>
+-Notificaciones Node-Red. (2016).HEIMDALL-EYE.http://heimdall-eye.es/notificaciones-node-red/</p>
+- 2009 Avelino Amoedo, Mara del Pilar Martnez-Costa, Elsa Moreno10.1386/rajo.6.1.5_4 Radio Journal:International Studies in Broadcast & Audio Media</p>
+-ENSEÑANZA DE CURSOS DE LA PROGRAMACIÓN ORIENTADA A OBJETOS PARA LOS PRINCIPIANTES 2011 Elzbieta Malinowski Gadja 10.15517/ring.v9i1-2.7731Revista Ingeniería</p>
 <H3>15. ANEXOS</H3>
 <H3>15.1 MANUAL DE USUARIO</H3>
 <H3>15.2 HOJAS TECNICAS</H3>
