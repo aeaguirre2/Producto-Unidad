@@ -67,13 +67,13 @@ Python, en programación orientada a objetos, trata de modelar lo que se enfrent
 <p align="center"><img src="img/14.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <b>Calculadora Científica en python</p></b>
-#IMPORTACION DE LIBRERIAS
-import math
-import RPi.GPIO as GPIO
-class CalcuCientifica():#CLASES QUE CONTIENE A LA CALCULADORA EN GENERAL
-	resultado=0#ATRIBUTO
-	def __init__(self,resultado):#CONSTRUCTOR
-    	self.resultado=resultado
+#IMPORTACION DE LIBRERIAS</p>
+import math</p>
+import RPi.GPIO as GPIO</p>
+class CalcuCientifica():#CLASES QUE CONTIENE A LA CALCULADORA EN GENERAL</p>
+	resultado=0#ATRIBUTO</p>
+	def __init__(self,resultado):#CONSTRUCTOR</p>
+    	self.resultado=resultado</p>
 # menu general del programa
 	def menu(self):
     	print("Calculadora Cientifica")
