@@ -66,9 +66,13 @@ Python, en programación orientada a objetos, trata de modelar lo que se enfrent
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/14.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
+<b>CInterfaz</p></b>
 <p align="center"><img src="img/c.jpg"/></p>
+Teniendo instalado Node-Red procedimos a ejecutarlo mediante el Command Prompt typeando node-red con esto daremos a iniciar nuestra plataforma. Cabe recalcar que se usa lenguaje de programacion por bloques los cuales se pueden dividirlos por Grupos, teniendo acceso a graficos ya sean de las maquinas industriales a las cuales se apliquen o a procesos que fueron configurados para medirlos. Se anadio un boton el cual genera un texto que fue designado y lo reproduce mediante una voz, que puede ser cambiada, y lo muestra de manera de notificacion, simulando que lo estariamos indicando en un celular, los graficos son barras, color pick los cuales los manejamos de manera manual con un rango mediante el Slider, ya que no poseemos nada de hardware conectado para que mida automaticamente. Por ultimo instalamos el complemento Dashboard para poder visualizar a los graficos mediante localhost:1880/ui/</p>
 <b>Calculadora Científica en python</p></b>
-<H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
+<p align="center"><img src="img/co.3.jpg"/></p>
+Para la calculadora cientifica se importo 2 librerias, las cuales son GPIO y math, para poder usar los puertos de la Raspberry y para las operaciones matematicas sin tener que realizar una logica manual. Como siguiente se creo una clase Calculadora la cual no vendria acompanada de atributos ni un constructor debido a que no se uso datos comunes, ya que las operaciones manejan valores diferentes, o cierta cantidad de valores distintos.[10:18, 4/8/2020] Arqui: Como siguiente pasamos a crear el menu, el cual es para visualizarlo de manera textual, el cual vendria acompanado de un select para poder escoger el PIN del cual deseamos realizar la operacion matematica, cabe recalcar que solo se podran usar los PIN color verde, por siguiente se creo los metodos, que contendrian las operaciones matematicas separadas para cada uno de los pines, y como final se creo nuevos objetos para poder ejecutar o compilar nuestro codigo.</p>
+<H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3></p>
 Al ser simulado en create code no es necesario contar con ningún prerrequisito ya que las librerías que se usan ya están incluidas en la página pero si se desea implementar en un raspberry se debe incluir las librerías math y gpio as gpio.</p>
 <H3>10. APORTACIONES</H3>
 <b>SBC</b></p>
