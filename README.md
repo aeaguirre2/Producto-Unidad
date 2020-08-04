@@ -369,7 +369,7 @@ Python es un lenguaje de programación interpretado cuya filosofía hace hincapi
 -Al momento de realizar la investigación nos mostró que se deben estudiar más afondo la generación de las dashboard ya que las  mismas son muy útiles en algunos de los negocios que actualmente están en auge.</p>
 -Conocer los distintos tipos de paradigmas de programación que existen y en especial en los lenguajes de programación que son más utilizados en la actualidad.</p>
 <H3>13. CRONOGRAMA</H3>
-<p align="center"><img src="img/13.png"/></p>
+<p align="center"><img src="img/cro.png"/></p>
 <H3>14. BIBLIOGRAFIA</H3>
 - García Jiménez, S. (2019). Desarrollo de paneles de control para redes IoT basados en NodeRed (Doctoraldissertation).</p>
 - OpenJS Foundation. (Julio de 2020). Node-RED .Obtenido de https://flows.nodered.org/node/node-red-dashboard</p>
