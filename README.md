@@ -66,6 +66,7 @@ Python, en programación orientada a objetos, trata de modelar lo que se enfrent
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/14.png"/></p>
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
+<p align="center"><img src="img/c.jpg"/></p>
 <b>Calculadora Científica en python</p></b>
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
 Al ser simulado en create code no es necesario contar con ningún prerrequisito ya que las librerías que se usan ya están incluidas en la página pero si se desea implementar en un raspberry se debe incluir las librerías math y gpio as gpio.</p>
